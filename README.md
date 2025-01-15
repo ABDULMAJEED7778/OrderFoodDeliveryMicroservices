@@ -1,53 +1,85 @@
-# Online food Delivery System 
-Online food Delivery System  have  4 major microservices that work and integrate together.
-##### Order Service 
-process all  customer orders such as customer order food by choosing a different menu, quantity; get valid
-payment information from payment Microservices  and Send Email about order information to the customer 
-##### Member Management Service
-register user, user information, user credit card information, user delivery address information 
-##### Restaurant Management Service
-handle all the restaurant and menu information such as registering restaurant information, get all restaurant and food information  find Restaurant by restaurant ID
-##### Payment Management Service 
-using sample data, check if using credit card information is valid or not and   send the result through the message queue  
+# OrderFoodDeliveryMicroservices
 
-##### High level  design 
-![High level solution design](https://github.com/MahiSharew/onlineFoodDelivery/blob/master/img/High-LevelDesignDiagram.png)
-> High level solution design 
+## Overview
+OrderFoodDeliveryMicroservices is a project demonstrating a microservices-based architecture for a food ordering and delivery system. The project includes multiple microservices, each responsible for a specific functionality within the system. This implementation uses Spring Boot and integrates Eureka for service discovery.
+
+## Microservices
+The system consists of the following microservices:
+
+1. **Order Service**
+   - Manages customer orders.
+   - Provides APIs to create, view, and update orders.
+
+2. **Customer Management Service**
+   - Handles customer information.
+   - Provides APIs for customer registration and management.
+
+3. **Payment Service**
+   - Manages payment processing.
+   - Provides APIs for payment-related actions.
+
+4. **Restaurant Service**
+   - Handles restaurant and menu information.
+   - Provides APIs to manage restaurant data and menus.
+
+## Architecture
+- **Service Discovery**: Eureka is used for dynamic service registration and discovery.
+- **Inter-Service Communication**: REST APIs are used for communication between microservices.
+- **Database**: Each microservice uses its own database for data persistence.
+
+## Prerequisites
+Before running the project, ensure you have the following installed:
+- Java 11 or later
+- Maven
+- Git
+- Docker (optional, for containerized deployment)
+
+## Getting Started
+
+### Clone the Repository
+```bash
+git clone https://github.com/ABDULMAJEED7778/OrderFoodDeliveryMicroservices.git
+cd OrderFoodDeliveryMicroservices
+```
+
+### Build and Run the Project
+1. **Build the project**:
+   ```bash
+   mvn clean install
+   ```
+
+2. **Run the Eureka Server**:
+   Navigate to the Eureka Server directory and run:
+   ```bash
+   mvn spring-boot:run
+   ```
+
+3. **Run the microservices**:
+   Navigate to each microservice directory and run:
+   ```bash
+   mvn spring-boot:run
+   ```
+
+### Access the Services
+- **Eureka Dashboard**: [http://localhost:8761]
+- **Order Service**: [http://localhost:9001]
+- **Customer Management Service**: [http://localhost:9002]
+- **Payment Service**: [http://localhost:9003]
+- **Restaurant Service**: [http://localhost:9004]
+
+## Sample Data
+- Sample JSON files for each entity (Customer, Order, Payment, Restaurant, etc.) are included in the `data` folder for testing purposes.
+
+## Key Features
+- **Modular Design**: Each microservice handles a specific domain.
+- **Service Discovery**: Dynamic registration and discovery using Eureka.
+- **Scalability**: Independent scalability of microservices.
+
+## Future Enhancements
+- Integration with RabbitMQ for asynchronous communication.
+- Adding a Gateway service for centralized routing.
+- Implementing OAuth2 for secure API access.
 
 
 
-###### Order microservice to Restaurant microservice communication using AMQP and RabbitMQ
-![AMQP and RabbitMQ](https://github.com/MahiSharew/onlineFoodDelivery/blob/master/img/message.jpg)
-> AMQP and RabbitMQ
 ---
-
-
-## Technologies used
-<details><summary>Use the technologies for restaurant Microservice</summary>
-<p>
- * Java Persistence Query Language (JPQL)
- * Used fetch type Lazy which lazy and fetching strategy subselect SUBSELECT
-(between restaurant entity, food menu entity )
- * Aspect-oriented programming for each rest call (@before and @AfterReturning,
- * logging aspect on file, rest, service and Dao package )
- * Messaging AMQP and Rabbitmq
- * Spring Rest Global exception handling (@ContollerAdvice)
- * Hibernate Validator
- * Jackson (data binding passed data that Rest Controller to Java POJO )
-</p>
-</details>
-<details><summary>Use the technologies for Order Microservice</summary>
-<p>
-* Email
-* Java Persistence Query Language (JPQL)
-* Used fetch type Lazy which lazy and fetching strategy subselect SUBSELECT (
-restaurant entity, food menu entity )
-* Aspect-oriented programming for each rest call (@before and @AfterReturning,
-logging aspect on file, rest, service and Dao package )
-* Messaging AMQP and Rabbitmq
-* Spring Rest Global exception handling (@ContollerAdvice)
-* Hibernate Validator
-* Jackson (data binding passed data that Rest Controller to Java POJO )
-* Email
-</p>
-</details>
