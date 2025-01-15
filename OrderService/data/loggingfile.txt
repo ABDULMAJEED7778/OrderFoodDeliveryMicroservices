@@ -1,7 +1,5 @@
 =====>> in @Before: calling method: EmailServiceImpl.sendOrderReceivedMail(..)
-=====>> argument: Eric
-=====>> argument: mahisharew62@gmail.com
-=====>> argument: edu.mum.dream.domain.Order@37e7ab35
+=====>> argument: Abdulmajeed
+=====>> argument: 1ms21cs001@gmail.com
+=====>> argument: edu.mum.dream.domain.Order@7995c799
 =====>> argument: en
-=====>> in @AfterReturning: from method: EmailServiceImpl.sendOrderReceivedMail(..)
-=====>> result: null

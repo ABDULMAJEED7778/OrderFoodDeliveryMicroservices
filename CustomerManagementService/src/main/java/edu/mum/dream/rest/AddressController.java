@@ -24,21 +24,21 @@ public class AddressController {
 	@PostMapping
 	public void save(@RequestBody Address address) {
 		addressService.save(address);
-	}
+	}      //Working
 
 	@PutMapping
 	public Address update(@RequestBody Address address) {
 		return addressService.update(address);
-	}
+	}     //working
 
 	@GetMapping
 	public List<Address> findAll() {
 		return addressService.findAll();
-	}
+	}    //Working
 
 	@GetMapping("/{id}")
 	public Address findOne(@PathVariable Long id) {
 		return addressService.findOne(id);
-	}
+	}    //Working
 	
 }

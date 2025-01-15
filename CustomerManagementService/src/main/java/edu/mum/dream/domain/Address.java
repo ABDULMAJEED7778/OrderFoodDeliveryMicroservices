@@ -29,7 +29,7 @@ public class Address {
 	//@NotEmpty(message = "{Min.address.city}")
 	private String city;
     
-    @Column(length = 8)
+    @Column(length = 20)
 	//@NotEmpty(message = "{Min.address.state}")
  	private String state;
     

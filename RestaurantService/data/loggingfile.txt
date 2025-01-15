@@ -183,3 +183,412 @@
 =====>> argument: edu.mum.dream.domain.Order@6085c039
 =====>> in @AfterReturning: from method: OrderServiceAmqpImpl.publish(..)
 =====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@55a2b1c5
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@55a2b1c5
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@55a2b1c5
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@e3fcad1
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@e3fcad1
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@e3fcad1
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@db2f410
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@db2f410
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@db2f410
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@4dbb6803
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@4dbb6803
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@4dbb6803
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@3297588
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@3297588
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@3297588
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@41ad4df3
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@41ad4df3
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@41ad4df3
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@41ad4df3
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@24e5e265
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@24e5e265
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@24e5e265
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@3ff51f19
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@3ff51f19
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@3ff51f19
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@3ff51f19
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@2627858c
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@2627858c
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@2627858c
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@2627858c
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@282797bd
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@282797bd
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@282797bd
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@282797bd
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@16f1f04f
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@16f1f04f
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@16f1f04f
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@56d0ecd3
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@56d0ecd3
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@56d0ecd3
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@56d0ecd3
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.findall()
+=====>> in @Before: calling method: RestaurantServiceImpl.findAll()
+=====>> in @Before: calling method: GenericDaoImpl.findAll()
+=====>> in @AfterReturning: from method: GenericDaoImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@5605866e, edu.mum.dream.domain.Restaurant@1a78185, edu.mum.dream.domain.Restaurant@14207492, edu.mum.dream.domain.Restaurant@ad78249, edu.mum.dream.domain.Restaurant@2b6ec52d]
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@5605866e, edu.mum.dream.domain.Restaurant@1a78185, edu.mum.dream.domain.Restaurant@14207492, edu.mum.dream.domain.Restaurant@ad78249, edu.mum.dream.domain.Restaurant@2b6ec52d]
+=====>> in @AfterReturning: from method: RestaurantRestContoller.findall()
+=====>> result: [edu.mum.dream.domain.Restaurant@5605866e, edu.mum.dream.domain.Restaurant@1a78185, edu.mum.dream.domain.Restaurant@14207492, edu.mum.dream.domain.Restaurant@ad78249, edu.mum.dream.domain.Restaurant@2b6ec52d]
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@428fb904
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@428fb904
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@428fb904
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@428fb904
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@ba59730
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@ba59730
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@ba59730
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@ba59730
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.Restaurant@4a8902f7
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.Restaurant@4a8902f7
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: edu.mum.dream.domain.Restaurant@4a8902f7
+=====>> in @Before: calling method: FoodMenuRestContoller.findall()
+=====>> in @Before: calling method: FoodMenuServiceImpl.findAll()
+=====>> in @Before: calling method: GenericDaoImpl.findAll()
+=====>> in @AfterReturning: from method: GenericDaoImpl.findAll()
+=====>> result: [edu.mum.dream.domain.FoodMenu@f563d41, edu.mum.dream.domain.FoodMenu@25ee5219, edu.mum.dream.domain.FoodMenu@2215ee02, edu.mum.dream.domain.FoodMenu@2a1dfca3, edu.mum.dream.domain.FoodMenu@141f7094, edu.mum.dream.domain.FoodMenu@43368694, edu.mum.dream.domain.FoodMenu@4ede050e, edu.mum.dream.domain.FoodMenu@be31092, edu.mum.dream.domain.FoodMenu@64174aaa, edu.mum.dream.domain.FoodMenu@1362729a, edu.mum.dream.domain.FoodMenu@2d2ae38d, edu.mum.dream.domain.FoodMenu@3ede013a, edu.mum.dream.domain.FoodMenu@60c24e51, edu.mum.dream.domain.FoodMenu@60b40671, edu.mum.dream.domain.FoodMenu@1af8b761, edu.mum.dream.domain.FoodMenu@5461b2d5, edu.mum.dream.domain.FoodMenu@2623cece, edu.mum.dream.domain.FoodMenu@6664d3f5, edu.mum.dream.domain.FoodMenu@39f823e7, edu.mum.dream.domain.FoodMenu@6056d917, edu.mum.dream.domain.FoodMenu@58bb2e6d, edu.mum.dream.domain.FoodMenu@1800a5f4]
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findAll()
+=====>> result: [edu.mum.dream.domain.FoodMenu@f563d41, edu.mum.dream.domain.FoodMenu@25ee5219, edu.mum.dream.domain.FoodMenu@2215ee02, edu.mum.dream.domain.FoodMenu@2a1dfca3, edu.mum.dream.domain.FoodMenu@141f7094, edu.mum.dream.domain.FoodMenu@43368694, edu.mum.dream.domain.FoodMenu@4ede050e, edu.mum.dream.domain.FoodMenu@be31092, edu.mum.dream.domain.FoodMenu@64174aaa, edu.mum.dream.domain.FoodMenu@1362729a, edu.mum.dream.domain.FoodMenu@2d2ae38d, edu.mum.dream.domain.FoodMenu@3ede013a, edu.mum.dream.domain.FoodMenu@60c24e51, edu.mum.dream.domain.FoodMenu@60b40671, edu.mum.dream.domain.FoodMenu@1af8b761, edu.mum.dream.domain.FoodMenu@5461b2d5, edu.mum.dream.domain.FoodMenu@2623cece, edu.mum.dream.domain.FoodMenu@6664d3f5, edu.mum.dream.domain.FoodMenu@39f823e7, edu.mum.dream.domain.FoodMenu@6056d917, edu.mum.dream.domain.FoodMenu@58bb2e6d, edu.mum.dream.domain.FoodMenu@1800a5f4]
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.findall()
+=====>> result: [edu.mum.dream.domain.FoodMenu@f563d41, edu.mum.dream.domain.FoodMenu@25ee5219, edu.mum.dream.domain.FoodMenu@2215ee02, edu.mum.dream.domain.FoodMenu@2a1dfca3, edu.mum.dream.domain.FoodMenu@141f7094, edu.mum.dream.domain.FoodMenu@43368694, edu.mum.dream.domain.FoodMenu@4ede050e, edu.mum.dream.domain.FoodMenu@be31092, edu.mum.dream.domain.FoodMenu@64174aaa, edu.mum.dream.domain.FoodMenu@1362729a, edu.mum.dream.domain.FoodMenu@2d2ae38d, edu.mum.dream.domain.FoodMenu@3ede013a, edu.mum.dream.domain.FoodMenu@60c24e51, edu.mum.dream.domain.FoodMenu@60b40671, edu.mum.dream.domain.FoodMenu@1af8b761, edu.mum.dream.domain.FoodMenu@5461b2d5, edu.mum.dream.domain.FoodMenu@2623cece, edu.mum.dream.domain.FoodMenu@6664d3f5, edu.mum.dream.domain.FoodMenu@39f823e7, edu.mum.dream.domain.FoodMenu@6056d917, edu.mum.dream.domain.FoodMenu@58bb2e6d, edu.mum.dream.domain.FoodMenu@1800a5f4]
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 23
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 23
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 23
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@39269d10
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@39269d10
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@39269d10
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 23
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 23
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 23
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@3d4dddf2
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@3d4dddf2
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@3d4dddf2
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 2
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 2
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 2
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.Restaurant@43f643cb
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.Restaurant@43f643cb
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: edu.mum.dream.domain.Restaurant@43f643cb
+=====>> in @Before: calling method: OrderServiceAmqpImpl.publish(..)
+=====>> argument: edu.mum.dream.domain.Order@fafccf0
+=====>> in @AfterReturning: from method: OrderServiceAmqpImpl.publish(..)
+=====>> result: null
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 23
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 23
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 23
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@592ffefa
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@592ffefa
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@592ffefa
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 21
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 21
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 21
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@67d353d6
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@67d353d6
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@67d353d6
+=====>> in @Before: calling method: RestaurantRestContoller.findall()
+=====>> in @Before: calling method: RestaurantServiceImpl.findAll()
+=====>> in @Before: calling method: GenericDaoImpl.findAll()
+=====>> in @AfterReturning: from method: GenericDaoImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@15794ee7, edu.mum.dream.domain.Restaurant@40e17366, edu.mum.dream.domain.Restaurant@200bdb97, edu.mum.dream.domain.Restaurant@665bf5f4, edu.mum.dream.domain.Restaurant@398a81ae, edu.mum.dream.domain.Restaurant@72bbafba, edu.mum.dream.domain.Restaurant@c120519, edu.mum.dream.domain.Restaurant@355fb53a]
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@15794ee7, edu.mum.dream.domain.Restaurant@40e17366, edu.mum.dream.domain.Restaurant@200bdb97, edu.mum.dream.domain.Restaurant@665bf5f4, edu.mum.dream.domain.Restaurant@398a81ae, edu.mum.dream.domain.Restaurant@72bbafba, edu.mum.dream.domain.Restaurant@c120519, edu.mum.dream.domain.Restaurant@355fb53a]
+=====>> in @AfterReturning: from method: RestaurantRestContoller.findall()
+=====>> result: [edu.mum.dream.domain.Restaurant@15794ee7, edu.mum.dream.domain.Restaurant@40e17366, edu.mum.dream.domain.Restaurant@200bdb97, edu.mum.dream.domain.Restaurant@665bf5f4, edu.mum.dream.domain.Restaurant@398a81ae, edu.mum.dream.domain.Restaurant@72bbafba, edu.mum.dream.domain.Restaurant@c120519, edu.mum.dream.domain.Restaurant@355fb53a]
+=====>> in @Before: calling method: OrderServiceAmqpImpl.publish(..)
+=====>> argument: edu.mum.dream.domain.Order@1e314e88
+=====>> in @AfterReturning: from method: OrderServiceAmqpImpl.publish(..)
+=====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.findall()
+=====>> in @Before: calling method: RestaurantServiceImpl.findAll()
+=====>> in @Before: calling method: GenericDaoImpl.findAll()
+=====>> in @AfterReturning: from method: GenericDaoImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@7b543c0a, edu.mum.dream.domain.Restaurant@1819c640, edu.mum.dream.domain.Restaurant@2b557216, edu.mum.dream.domain.Restaurant@4927fde8, edu.mum.dream.domain.Restaurant@6ef799b5, edu.mum.dream.domain.Restaurant@380a69ed, edu.mum.dream.domain.Restaurant@384f6938, edu.mum.dream.domain.Restaurant@4ef10b64]
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@7b543c0a, edu.mum.dream.domain.Restaurant@1819c640, edu.mum.dream.domain.Restaurant@2b557216, edu.mum.dream.domain.Restaurant@4927fde8, edu.mum.dream.domain.Restaurant@6ef799b5, edu.mum.dream.domain.Restaurant@380a69ed, edu.mum.dream.domain.Restaurant@384f6938, edu.mum.dream.domain.Restaurant@4ef10b64]
+=====>> in @AfterReturning: from method: RestaurantRestContoller.findall()
+=====>> result: [edu.mum.dream.domain.Restaurant@7b543c0a, edu.mum.dream.domain.Restaurant@1819c640, edu.mum.dream.domain.Restaurant@2b557216, edu.mum.dream.domain.Restaurant@4927fde8, edu.mum.dream.domain.Restaurant@6ef799b5, edu.mum.dream.domain.Restaurant@380a69ed, edu.mum.dream.domain.Restaurant@384f6938, edu.mum.dream.domain.Restaurant@4ef10b64]
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@11065529
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@11065529
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@11065529
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@11065529
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 23
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 23
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 23
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@4838eaa4
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@4838eaa4
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@4838eaa4
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 22
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 22
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 22
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@54cb6cac
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@54cb6cac
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@54cb6cac
+=====>> in @Before: calling method: OrderServiceAmqpImpl.publish(..)
+=====>> argument: edu.mum.dream.domain.Order@5d49b2c3
+=====>> in @AfterReturning: from method: OrderServiceAmqpImpl.publish(..)
+=====>> result: null
+=====>> in @Before: calling method: RestaurantRestContoller.upload(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@6d0118d1
+=====>> in @Before: calling method: RestaurantServiceImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@6d0118d1
+=====>> in @Before: calling method: GenericDaoImpl.save(..)
+=====>> argument: edu.mum.dream.domain.Restaurant@6d0118d1
+=====>> in @AfterReturning: from method: GenericDaoImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.save(..)
+=====>> result: null
+=====>> in @AfterReturning: from method: RestaurantRestContoller.upload(..)
+=====>> result: edu.mum.dream.domain.Restaurant@6d0118d1
+=====>> in @Before: calling method: RestaurantRestContoller.findall()
+=====>> in @Before: calling method: RestaurantServiceImpl.findAll()
+=====>> in @Before: calling method: GenericDaoImpl.findAll()
+=====>> in @AfterReturning: from method: GenericDaoImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@6600e60f, edu.mum.dream.domain.Restaurant@6188b7ad, edu.mum.dream.domain.Restaurant@39fa28dc, edu.mum.dream.domain.Restaurant@197f6cd0, edu.mum.dream.domain.Restaurant@5127ce79, edu.mum.dream.domain.Restaurant@75362e2f, edu.mum.dream.domain.Restaurant@1de2549d, edu.mum.dream.domain.Restaurant@7f19a21d, edu.mum.dream.domain.Restaurant@1022ef81, edu.mum.dream.domain.Restaurant@54a1ecfc]
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findAll()
+=====>> result: [edu.mum.dream.domain.Restaurant@6600e60f, edu.mum.dream.domain.Restaurant@6188b7ad, edu.mum.dream.domain.Restaurant@39fa28dc, edu.mum.dream.domain.Restaurant@197f6cd0, edu.mum.dream.domain.Restaurant@5127ce79, edu.mum.dream.domain.Restaurant@75362e2f, edu.mum.dream.domain.Restaurant@1de2549d, edu.mum.dream.domain.Restaurant@7f19a21d, edu.mum.dream.domain.Restaurant@1022ef81, edu.mum.dream.domain.Restaurant@54a1ecfc]
+=====>> in @AfterReturning: from method: RestaurantRestContoller.findall()
+=====>> result: [edu.mum.dream.domain.Restaurant@6600e60f, edu.mum.dream.domain.Restaurant@6188b7ad, edu.mum.dream.domain.Restaurant@39fa28dc, edu.mum.dream.domain.Restaurant@197f6cd0, edu.mum.dream.domain.Restaurant@5127ce79, edu.mum.dream.domain.Restaurant@75362e2f, edu.mum.dream.domain.Restaurant@1de2549d, edu.mum.dream.domain.Restaurant@7f19a21d, edu.mum.dream.domain.Restaurant@1022ef81, edu.mum.dream.domain.Restaurant@54a1ecfc]
+=====>> in @Before: calling method: RestaurantRestContoller.getResturant(..)
+=====>> argument: 10
+=====>> in @Before: calling method: RestaurantServiceImpl.findOne(..)
+=====>> argument: 10
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 10
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.Restaurant@47a3a1df
+=====>> in @AfterReturning: from method: RestaurantServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.Restaurant@47a3a1df
+=====>> in @AfterReturning: from method: RestaurantRestContoller.getResturant(..)
+=====>> result: edu.mum.dream.domain.Restaurant@47a3a1df
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 22
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 22
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 22
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@3d87623e
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@3d87623e
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@3d87623e
+=====>> in @Before: calling method: FoodMenuRestContoller.getMenu(..)
+=====>> argument: 23
+=====>> in @Before: calling method: FoodMenuServiceImpl.findOne(..)
+=====>> argument: 23
+=====>> in @Before: calling method: GenericDaoImpl.findOne(..)
+=====>> argument: 23
+=====>> in @AfterReturning: from method: GenericDaoImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@7586e6de
+=====>> in @AfterReturning: from method: FoodMenuServiceImpl.findOne(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@7586e6de
+=====>> in @AfterReturning: from method: FoodMenuRestContoller.getMenu(..)
+=====>> result: edu.mum.dream.domain.FoodMenu@7586e6de
+=====>> in @Before: calling method: OrderServiceAmqpImpl.publish(..)
+=====>> argument: edu.mum.dream.domain.Order@50bd3160
+=====>> in @AfterReturning: from method: OrderServiceAmqpImpl.publish(..)
+=====>> result: null

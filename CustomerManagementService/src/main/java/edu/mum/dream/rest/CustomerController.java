@@ -40,7 +40,7 @@ public class CustomerController {
 //	}
 
 	@PostMapping("/signup")
-	public void memberRegistration(@Valid @RequestBody CustomerDTO customerData) {
+	public void memberRegistration(@Valid @RequestBody CustomerDTO customerData) {    //Working
 		Address addressObject = customerData.getAddress();
 		//addressService.save(addressObject);
 
@@ -52,24 +52,24 @@ public class CustomerController {
 		creditCardObject.setCardHolder(customerObject);
 		creditService.save(creditCardObject);
 	}
-	@GetMapping(value = "/check-card/{customerId}")
+	@GetMapping(value = "/check-card/{customerId}")   					//Working
     public CreditCard findCreditCard(@PathVariable long customerId) {
         return creditService.findByCardHolder(customerId);
     }
 
 	@PutMapping
-	public Customer update(@RequestBody Customer customer) {
+	public Customer update(@RequestBody Customer customer) {                //Working   { "id": 21, "firstName": "Abdulmajeed", "lastName": "Alshawea","email": "1ms21cs001@gmail.com","phoneNumber": "1234567891","address": {"street": "Outer Ring Rd","city": "Bangalore","state": "Karnataka","zipCode": "560038"		}
 		return customerService.update(customer);
 	}
 
 	@GetMapping
-	public List<Customer> findAll() {
+	public List<Customer> findAll() {                              //Working
 		return customerService.findAll();
-	}
+	}              //Working
 
-	@GetMapping("/{id}")
+	@GetMapping("/{id}")                       //Working
 	public Customer findOne(@PathVariable Long id) {
 		return customerService.findOne(id);
-	}
+	}     //Working
 
 }

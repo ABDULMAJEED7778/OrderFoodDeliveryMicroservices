@@ -4,17 +4,8 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Set;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.JoinColumn;
-import javax.persistence.OneToMany;
-import javax.persistence.OneToOne;
+import javax.persistence.*;
 
-//@Entity
 public class Customer  implements Serializable{
 
 	/**
@@ -32,19 +23,10 @@ public class Customer  implements Serializable{
 	@Column(length = 16)
 	private String lastName;
 
-	// @OneToOne(fetch=FetchType.EAGER)
-	// @JoinColumn(name="memberId")
-	// UserCredentials userCredentials;
-
 	@OneToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "ADDRESS_ID")
 	private Address address;
 
-//	@OneToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-//	private Set<Order> orders = new HashSet<Order>();
-	//@OneToMany(targetEntity=Order.class, mappedBy="customer", fetch=FetchType.EAGER)
-	//@OneToMany (mappedBy="customer") 
-	//private Set<Order> orders;
 
 	public long getId() {
 		return id;

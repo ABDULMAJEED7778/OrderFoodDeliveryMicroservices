@@ -42,7 +42,7 @@ public class LoggingAspect {
 	public void before(JoinPoint theJoinPoint) {
 		FileWriter fileWriter;
 		try {
-			fileWriter = new FileWriter("data/loggingfile.txt");
+			fileWriter = new FileWriter("OrderService/data/loggingfile.txt");
 			PrintWriter printWriter = new PrintWriter(fileWriter,true);
 			// display method we are calling
 			String theMethod = theJoinPoint.getSignature().toShortString();
@@ -74,7 +74,7 @@ public class LoggingAspect {
 	public void afterReturning(JoinPoint theJoinPoint, Object theResult) {
 		FileWriter fileWriter;
 		try {
-			fileWriter = new FileWriter("data/loggingfile.txt",true);
+			fileWriter = new FileWriter("OrderService/data/loggingfile.txt",true);
 			PrintWriter printWriter = new PrintWriter(fileWriter);
 		
 

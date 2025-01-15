@@ -23,7 +23,7 @@ public class FoodMenu {
 	@Size(min = 4, max = 32, message = "{Size.foodName}")
 	private String foodName;
 	@NotNull
-	@Size(min = 4, max = 32, message = "{Size.foodDescription}")
+	@Size(min = 4, max = 100, message = "{Size.foodDescription}")
 	
 	private String foodDescription;
 	

@@ -9,5 +9,3 @@ GET	           |http://localhost:9001/payment	                         |get all 
 /************Database Configuration*****************/
 
 File Location	src/main/resources/application.properties	
-spring.datasource.username = 
-spring.datasource.password =

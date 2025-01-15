@@ -11,6 +11,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 //@Entity
+//@Table(name = "credit_card")
 public class CreditCard {
 
 	@Id

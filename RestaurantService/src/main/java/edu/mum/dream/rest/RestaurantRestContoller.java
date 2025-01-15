@@ -35,7 +35,7 @@ public class RestaurantRestContoller {
 		return restaurantService.findOne((long) restaurantId);
 	}
 
-	@RequestMapping(value = "/restaurant/{restaurantId}/menu")
+	@RequestMapping(value = "/restaurant/{restaurantId}/menu", method = RequestMethod.GET)
     public List<FoodMenu> showMenuByRestaurantId(@PathVariable int restaurantId) {
         return restaurantService.showFoodMenu((long)restaurantId);
     }

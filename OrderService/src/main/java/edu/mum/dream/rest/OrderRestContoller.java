@@ -40,7 +40,7 @@ public class OrderRestContoller {
 
 	@GetMapping("/restaurants")
 	public Restaurant findallRestaurant() {
-		Restaurant restaurant = restTemplate.getForObject("http://Restaurant-Microservice/api/restaurants/2/",
+		Restaurant restaurant = restTemplate.getForObject("http://Restaurant-Microservice/api/restaurants/2",
 				Restaurant.class);
 		return restaurant;
 	}
@@ -79,7 +79,7 @@ public class OrderRestContoller {
 	 *
 	 ***/
 	@GetMapping("/orders")
-	public List<Order> findallOrder() {
+	public List<Order> findAll() {
 		return orderService.findAllSubSelect();
 	}
 
